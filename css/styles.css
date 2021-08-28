@@ -23,14 +23,19 @@
   }
 
   /*The image of the band that goes within header tag: 
-   -Is centered (margin: 0 auto)
-   -Is displayed as block
-   -It's max-width and height, make it responsive*/
+   -Is displayed as block in order to responsively resize, relative to the width of its parent element, without exceeding its original size.
+   -Its max-width and height, make it responsive
+   -Horizontal centered, relative to its container, with margin: 0 auto and display:block*/
   #image {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+  }
+
+  /*The image caption goes closer to the image of the band (margin-top: 0px)*/
+  #img-caption {
+    margin-top: 0px;
   }
 
   /*General information about Avenged Sevenfold is justify*/
@@ -41,6 +46,14 @@
   /*The information about their discography is justify*/
   ul {
     text-align: justify;
+  }
+
+  /*Modified the width and height of the images that links to spotify
+  margin top and bottom of 16 px and auto for left and right*/
+  #albums-to-spotify {
+    width: 150px;
+    height: 150px;
+    margin: 16px auto;
   }
 
   /*Font size of footer setted as monospace*/
