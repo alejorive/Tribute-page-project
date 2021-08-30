@@ -17,6 +17,7 @@
     font-size: 1.6rem;
     line-height: 1.5;
     font-family: helvetica, sans-serif;
+    margin: 0;
   }
 
   /**Added rule to main
@@ -26,7 +27,12 @@
     background: rgba(255,255,255,0.60);
     margin: 30px 40px;
     border-radius: 20px;
-    padding: 35px;
+    padding: 35px 35px 0px 35px;
+  }
+
+  #img-div {
+    padding: 0 65px 5px 65px;
+    margin: 0;
   }
 
   /*Centered the cover of each album that links to spotify*/
@@ -37,48 +43,15 @@
   /*Font sizes for headers*/
   h1 {
     font-size: 4.2rem;
+    margin: 0;
   }
   h2 {
-    font-size: 3.7rem
+    font-size: 3.7rem;
+    margin: 10px;
   }
   h3 {
     font-size: 3.2rem;
-  }
-
-  /*The image of the band that goes within header tag: 
-   -Is displayed as block in order to responsively resize, relative to the width of its parent element, without exceeding its original size.
-   -Its max-width and height, make it responsive
-   -Horizontal centered, relative to its container, with margin: 0 auto and display:block*/
-  #image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-
-  /*The image caption goes closer to the image of the band (margin-top: 0px)*/
-  #img-caption {
-    margin-top: 0px;
-  }
-
-  /*General information about Avenged Sevenfold is justify
-  Added a margin*/
-  #about-avenged-sevenfold {
-    text-align: justify;
-    margin: 20px 30px;
-  }
-
-  /*Added a color to the links*/
-  a {
-    color: #3381c0
-  }
- 
-  /*The information about their discography is justify
-  Added a margin*/
-  ul {
-    text-align: justify;
-    max-width: 850px;
-    margin: 0 auto 50px auto;
+    margin: 10px;
   }
 
   /*Modified the width and height of the images that links to spotify
@@ -91,11 +64,83 @@
     border-radius: 40%;
   }
 
+  /*Added a media query for h1, h2, h3, img-caption, body and albums-to-spotify*/
+  @media (max-width: 680px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.1;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    h3 {
+      font-size: 2.5rem;
+    }
+    #img-caption {
+      font-size: 1.1rem;
+    }
+    body {
+      text-align: center;
+      font-size: 1.4rem;
+      line-height: 1.45;
+    }
+    #albums-to-spotify {
+      width: 105px;
+      height: 105px;  
+    }
+  }
+
+  /*Media query to line height of img-caption*/
+  @media(max-width: 1070px) {
+    #img-caption {
+      line-height: 1.1;
+    }
+  }
+
+  /*The image of the band that goes within header tag: 
+   -Is displayed as block in order to responsively resize, relative to the width of its parent element, without exceeding its original size.
+   -Its max-width and height, make it responsive
+   -Horizontal centered, relative to its container, with margin: 0 auto and display:block*/
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  /*The image caption goes closer to the image of the band (margin-top: 0px)*/
+  #img-caption {
+    margin-top: 0px;
+    font-size: 1.4rem;
+  }
+
+  /*General information about Avenged Sevenfold is justify
+  Added a margin*/
+  #about-avenged-sevenfold {
+    text-align: justify;
+  }
+
+  /*Added a color to the links*/
+  a {
+    color: #205a8a
+  }
+ 
+  /*The information about their discography is justify
+  Added a margin*/
+  ul {
+    text-align: justify;
+    max-width: 880px;
+    margin: 0 auto 50px auto;
+    padding: 20px;
+  }
+
   /*Font size of footer setted as monospace
   Changed te text color to white to contrast the grey background*/
   footer {
     font-family: monospace;
     color: #eee;
+    line-height: 1.1;
   }  
 
   
