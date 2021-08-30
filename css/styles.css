@@ -14,10 +14,17 @@
     font-family: helvetica, sans-serif;
   }
 
-  /**Added rule to main*/
+  /**Added rule to main
+  Added a border radius o 20 px and a transparency*/
   #main {
-    background: rgb(255,255,255);
+    background: rgba(255,255,255,0.70);
     margin: 30px 40px;
+    border-radius: 20px;
+  }
+
+  /*Centered the cover of each album that links to spotify*/
+  #images-link {
+    text-align: center;
   }
  
   /*Font sizes for headers*/
@@ -68,11 +75,13 @@
   }
 
   /*Modified the width and height of the images that links to spotify
-  margin top and bottom of 16 px and auto for left and right*/
+  margin top and bottom of 16 px and auto for left and right.
+  Added a border radius*/
   #albums-to-spotify {
     width: 150px;
     height: 150px;
     margin: 16px auto;
+    border-radius: 40%;
   }
 
   /*Font size of footer setted as monospace
