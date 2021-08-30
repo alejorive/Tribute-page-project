@@ -15,11 +15,13 @@
   }
 
   /**Added rule to main
-  Added a border radius o 20 px and a transparency*/
+  Added a border radius of 20 px and a transparency
+  Added a pading in order to give a space between the text and the border of the main element when the screen size change to a smaller value*/
   #main {
     background: rgba(255,255,255,0.70);
     margin: 30px 40px;
     border-radius: 20px;
+    padding: 35px;
   }
 
   /*Centered the cover of each album that links to spotify*/
