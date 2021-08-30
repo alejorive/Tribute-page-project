@@ -1,8 +1,13 @@
   html {
     /*Font size of 10px for easier rem calculations*/
     font-size: 10px;
-    /*Background to grey*/
-    background: #4c4d52; 
+    /*Background to grey
+    Added a gif centered to the background*/
+    background: rgb(49, 40, 49)
+    url(https://media1.giphy.com/media/L4epvaYdygiHV1Z2ET/giphy.gif?cid=790b76117175420287d406cf8cf31d48105484cf1d1631e9&rid=giphy.gif&ct=s)
+    center no-repeat fixed;
+    /*Setted a size for the backgorund gif*/
+    background-size: 50% auto;
   }
 
 
@@ -18,7 +23,7 @@
   Added a border radius of 20 px and a transparency
   Added a pading in order to give a space between the text and the border of the main element when the screen size change to a smaller value*/
   #main {
-    background: rgba(255,255,255,0.70);
+    background: rgba(255,255,255,0.60);
     margin: 30px 40px;
     border-radius: 20px;
     padding: 35px;
