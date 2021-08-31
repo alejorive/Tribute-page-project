@@ -10,13 +10,12 @@
     background-size: 50% auto;
   }
 
-
   /*General body rule*/
   body {
     text-align: center;
     font-size: 1.6rem;
     line-height: 1.5;
-    font-family: helvetica, sans-serif;
+    font-family: 'lexend', helvetica, sans-serif;
     margin: 0;
   }
 
@@ -146,6 +145,7 @@
     font-family: monospace;
     color: #eee;
     line-height: 1.1;
+    font-size: 1.4rem;
   } 
   
   /*Added different colors to the tribute link in order to contrast with the background*/
