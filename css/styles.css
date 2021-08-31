@@ -123,7 +123,12 @@
 
   /*Added a color to the links*/
   a {
-    color: #205a8a
+    color: #205a8a;
+  }
+
+  /*Added a different color to the links when the user already visited them*/
+  a:visited {
+    color: #710f7a;
   }
  
   /*The information about their discography is justify
@@ -141,6 +146,14 @@
     font-family: monospace;
     color: #eee;
     line-height: 1.1;
-  }  
+  } 
+  
+  /*Added different colors to the tribute link in order to contrast with the background*/
+  #tribute-link {
+    color: #55a3e2;
+  }
+  #tribute-link:visited {
+    color: #cc48d8;
+  }
 
   
