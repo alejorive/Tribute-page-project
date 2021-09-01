@@ -87,6 +87,15 @@
       width: 105px;
       height: 105px;  
     }
+    /*Changing the padding and margin of the main element in order to make it more responsive when the screen size gets smaller*/
+    #main {
+      padding: 35px 15px 0px 15px;
+      margin: 5px 10px;
+    }
+    /*Changing the padding and margin of the image of the band in order to make it more responsive when the screen size gets smaller*/
+    #img-div {
+      padding: 0 15px 5px 15px;
+    }  
   }
 
   /*Media query to line height of img-caption*/
